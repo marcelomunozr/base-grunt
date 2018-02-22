@@ -1,0 +1,31 @@
+{
+  "name": "jumbito-amigos",
+  "version": "1.0.0",
+  "description": "Landing Jumbito y amigos",
+  "main": "script.js",
+  "scripts": {
+    "build": "grunt build",
+    "dev": "grunt"
+  },
+  "author": "Javiera Tapia <javiera.tapia@2brains.cl>",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-cli": "^1.2.0",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-serve": "^0.1.6",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "jqlite": "^0.2.42"
+  }
+}

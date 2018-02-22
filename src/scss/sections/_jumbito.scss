@@ -1,0 +1,118 @@
+section.jumbito-section {
+  width: 100%;
+  background: $color3;
+}
+
+#jumbito {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+
+  @media(max-width: $tablet-land) {
+    padding: 0px;
+  }
+}
+
+.jumbito-story {
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 80px;
+
+  @media (max-width: $tablet-land){
+    padding-left: 60px;
+    padding-right: 19px;
+    padding-top: 50px;
+  }
+
+  @media(max-width: $tablet - 1) {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+    padding-right: 5px;
+    padding-top: 20px;
+  }
+}
+
+.jumbito-name {
+  align-self: center;
+  width: 245px;
+  height: 97px;
+  margin-bottom: 33px;
+
+  @media(max-width: $tablet-land) {
+    position: absolute;
+    width: 191.62px;
+    height: 74.72px;
+    bottom: 19px;
+    right: 17px;
+    margin-bottom: 0px;
+  }
+  @media(max-width: $tablet - 1) {
+    width: 90.31px;
+    height: 35.8px;
+    bottom: auto;
+    right: 40px;
+    top: 10px;
+  }
+}
+
+.jumbito-image-wrapper {
+  width: 422px;
+  height: auto;
+  margin-top: auto;
+  padding-right: 61px;
+
+  @media(max-width: $tablet-land) {
+    width: 363px;
+    padding-right: 18px;
+  }
+
+  @media(max-width: $tablet - 1) {
+    width: 166px;
+    min-width: 166px;
+    min-height: 166px;
+    padding-right: 13px;
+    margin-top: 40px;
+  }
+
+  // Needs to be fixed in smaller views
+  @media(max-width: 351px) {
+    margin-top: 0;
+  }
+}
+
+.jumbito-image {
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: -2px;
+  max-height: 441px;
+}
+
+.jumbito-text {
+  color: $color1;
+  font-size: 22px;
+  line-height: 23px;
+  text-align: center;
+  max-width: 463px;
+
+  @media(max-width: $tablet-land) {;
+    max-width: 340px;
+    font-size: 18px;
+    line-height: 19px;
+  }
+  @media(max-width: $tablet - 1) {
+    font-size: 12px;
+    line-height: 13px;
+    max-width: 240px;
+    min-width: 170px;
+  }
+}
+
+.jumbito-section .section-character-icon{
+  @media(max-width: $tablet - 1) {
+    max-height: 35px;
+  }
+}

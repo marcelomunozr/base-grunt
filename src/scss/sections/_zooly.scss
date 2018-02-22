@@ -1,0 +1,101 @@
+section.zooly-section {
+  width: 100%;
+  // max-height: 400px;
+  background: $color6;
+}
+
+#zooly {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  @media(max-width: $tablet-land) {
+    padding: 0px;
+  }
+}
+
+.zooly-story {
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-right: 80px;
+
+  @media(max-width: $tablet-land) {
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    padding-right: 65px;
+  }
+
+  @media(max-width: $tablet - 1) {
+    padding-top: 20px;
+    padding-right: 17px;
+  }
+}
+
+.zooly-name {
+  align-self: center;
+  width: 211px;
+  height: auto;
+  @media(max-width: $tablet-land) {
+    position: absolute;
+    bottom: -10px;
+    left: 28px;
+    width: 153.33px;
+  }
+  @media(max-width: $tablet - 1) {
+    width: 77px;
+    bottom: 4px;
+    left: 9px;
+  }
+}
+
+.zooly-image-wrapper {
+  width: 349px;
+  height: auto;
+  margin-top: -60px;
+  padding-left: 75px;
+
+  @media(max-width: $tablet-land) {
+    width: 311.75px;
+    margin-top: -51px;
+    padding-left: 58px;
+  }
+  @media(max-width: $tablet - 1) {
+    width: 130px;
+    min-width: 130px;
+    margin-top: -16px;
+    padding-left: 43px;
+  }
+  // Needs to be fixed in smaller views
+  @media(max-width: 351px) {
+    margin-top: 0;
+  }
+}
+
+.zooly-image {
+  width: 100%;
+  vertical-align: middle;
+  max-height: 461.87px;
+}
+
+.zooly-text {
+  color: $color1;
+  font-size: 22px;
+  line-height: 23px;
+  text-align: center;
+  max-width: 463px;
+  padding-top: 13px;
+
+  @media(max-width: $tablet-land) {
+    max-width: 317px;
+    padding-top: 0px;
+    font-size: 18px;
+    line-height: 19px;
+  }
+  @media(max-width: $tablet - 1) {
+    font-size: 12px;
+    line-height: 13px;
+    max-width: 170px;
+  }
+}

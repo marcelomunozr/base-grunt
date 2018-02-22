@@ -1,0 +1,14 @@
+extends layouts/home
+
+block head_end
+block content
+  - var headerClass = "info";
+
+  include parts/header
+
+  main
+    include parts/sections/tips
+    include parts/sections/recipes
+    include parts/sections/calendar
+
+  include parts/footer

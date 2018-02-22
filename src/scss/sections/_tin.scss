@@ -1,0 +1,108 @@
+section.tin-section {
+  width: 100%;
+  // max-height: 400px;
+  background: $color5;
+}
+
+#tin {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  @media(max-width: $tablet-land) {
+    padding: 0px;
+  }
+}
+
+.tin-story {
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 80px;
+
+  @media(max-width: $tablet-land) {
+    align-items: center;
+    justify-content: center;
+    padding-left: 65px;
+    padding-top: 74px;
+    padding-right: 12px;
+  }
+
+  @media(max-width: $tablet - 1) {
+    padding: 20px 0px 0px;
+  }
+}
+
+.tin-name {
+  align-self: center;
+  width: 168px;
+  height: auto;
+
+  @media(max-width: $tablet-land) {
+    position: absolute;
+    width: 136.51px;
+    right: 37px;
+    bottom: 34px;
+  }
+  @media(max-width: $tablet - 1) {
+    width: 57.65px;
+    bottom: 9px;
+    right: 8px;
+  }
+}
+
+.tin-image-wrapper {
+  width: percentage(438 / 1100);
+  height: auto;
+  margin-top: -34px;
+  padding-right: 46px;
+
+  @media(max-width: $tablet-land) {
+    width: 367px;
+    margin-top: -54px;
+    padding-right: 8px;
+  }
+  @media(max-width: $tablet - 1) {
+    margin-top: -11px;
+    padding-right: 12px;
+    width: 151px;
+  }
+
+  // Needs to be fixed in smaller views
+  @media(max-width: 351px) {
+    margin-top: 0;
+  }
+}
+
+.tin-image {
+  width: 100%;
+  vertical-align: middle;
+  max-height: 472px;
+
+  @media(max-width: $tablet-land) {
+    max-height: 409px;
+  }
+}
+
+.tin-text {
+  color: $color1;
+  font-size: 22px;
+  line-height: 23px;
+  text-align: center;
+  max-width: 463px;
+  padding-top: 34px;
+
+  @media(max-width: $tablet-land) {
+    padding-top: 0px;
+    max-width: 317px;
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  @media(max-width: $tablet - 1) {
+    font-size: 12px;
+    line-height: 13px;
+    padding: 0px 15px;
+    max-width: 170px;
+  }
+}

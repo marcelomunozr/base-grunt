@@ -1,0 +1,100 @@
+section.rozy-section {
+  width: 100%;
+  // max-height: 400px;
+  background: $color7;
+}
+
+#rozy {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+
+  @media(max-width: $tablet-land) {
+    padding: 0px;
+  }
+}
+
+.rozy-story {
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 80px;
+
+  @media(max-width: $tablet-land) {
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    padding-left: 64px;
+  }
+  @media(max-width: $tablet - 1) {
+    padding-top: 20px;
+    padding-left: 17px;
+  }
+}
+
+.rozy-name {
+  align-self: center;
+  width: 192px;
+  height: auto;
+
+  @media(max-width: $tablet-land) {
+    position: absolute;
+    width: 138.94px;
+    right: 52px;
+    bottom: 25px;
+  }
+  @media(max-width: $tablet - 1) {
+    width: 69.89px;
+    bottom: 7px;
+    right: 16px;
+  }
+}
+
+.rozy-image-wrapper {
+  width: 390px;
+  height: auto;
+  margin-top: -44px;
+  padding-right: 62px;
+
+  @media(max-width: $tablet-land) {
+    width: 358px;
+    margin-top: -35px;
+    padding-right: 1px;
+  }
+  @media(max-width: $tablet - 1) {
+    margin-top: -14px;
+    padding-right: 28px;
+    width: 152px;
+  }
+}
+
+.rozy-image {
+  width: 100%;
+  vertical-align: middle;
+  max-height: 462px;
+  @media(max-width: $tablet-land) {
+    max-height: 403px;
+  }
+}
+
+.rozy-text {
+  color: $color1;
+  font-size: 22px;
+  line-height: 23px;
+  text-align: center;
+  max-width: 460px;
+  padding-top: 22px;
+
+  @media(max-width: $tablet-land) {
+    padding-top: 0px;
+    max-width: 320px;
+    font-size: 18px;
+    line-height: 19px;
+  }
+  @media(max-width: $tablet - 1) {
+    font-size: 12px;
+    line-height: 13px;
+    max-width: 170px;
+  }
+}

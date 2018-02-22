@@ -1,0 +1,43 @@
+.video-section {
+  width: 100%;
+  background: $color9;
+}
+
+.video-section .container{
+  @media (max-width: $tablet-land){
+    max-width: 100%;
+  }
+
+  @media (max-width: $tablet - 1){
+    max-width: 100%;
+  }
+}
+
+#video {
+  padding-bottom: 55px;
+  padding-top: 40px;
+  @media(max-width: $tablet-land) {
+    padding: 0px;
+  }
+}
+
+.video-wrap {
+  position: relative;
+  padding-bottom: 53.8%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+
+  @media(max-width: $break-small) {
+    padding-bottom: 49.5%;
+  }
+}
+
+.video-wrap iframe,
+.video-wrap video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

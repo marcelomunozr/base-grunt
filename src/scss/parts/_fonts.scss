@@ -1,0 +1,38 @@
+@import 'fontaewsome';
+
+
+@font-face {
+  font-family: 'DIN Next LT Pro';
+  src: url('../fonts/DINNextLTPro-Medium.eot');
+  src: url('../fonts/DINNextLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/DINNextLTPro-Medium.woff2') format('woff2'),
+  url('../fonts/DINNextLTPro-Medium.woff') format('woff'),
+  url('../fonts/DINNextLTPro-Medium.ttf') format('truetype'),
+  url('../fonts/DINNextLTPro-Medium.svg#DINNextLTPro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Pro';
+  src: url('../fonts/DINNextLTPro-Bold.eot');
+  src: url('../fonts/DINNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/DINNextLTPro-Bold.woff2') format('woff2'),
+  url('../fonts/DINNextLTPro-Bold.woff') format('woff'),
+  url('../fonts/DINNextLTPro-Bold.ttf') format('truetype'),
+  url('../fonts/DINNextLTPro-Bold.svg#DINNextLTPro-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Komika Slim';
+  src: url('../fonts/KomikaSlim.eot');
+  src: url('../fonts/KomikaSlim.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/KomikaSlim.woff2') format('woff2'),
+  url('../fonts/KomikaSlim.woff') format('woff'),
+  url('../fonts/KomikaSlim.ttf') format('truetype'),
+  url('../fonts/KomikaSlim.svg#KomikaSlim') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

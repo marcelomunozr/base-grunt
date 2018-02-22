@@ -1,0 +1,39 @@
+// Modules and variables
+@import "includes/config";
+
+@import "parts/fonts";
+@import "parts/base";
+@import "parts/header";
+@import "parts/footer";
+
+// Sections
+@import "sections/game";
+@import "sections/jumbito";
+@import "sections/rash";
+@import "sections/tin";
+@import "sections/zooly";
+@import "sections/rozy";
+@import "sections/video";
+
+// Sections info
+@import "sections/tips";
+@import "sections/recipes";
+@import "sections/calendar";
+
+.characters-section{
+  width: 100%;
+  overflow: hidden;
+}
+
+.section-character-icon{
+  margin: 20px 0px 40px;
+
+  @media(max-width: $tablet-land) {;
+    max-height: 90px;
+    margin-bottom: 80px;
+  }
+  @media(max-width: $tablet - 1) {
+    max-height: 50px;
+    margin: 6px 0px 18px;
+  }
+}

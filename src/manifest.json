@@ -1,0 +1,26 @@
+{
+  "name": "Jumbito y sus amigos",
+  "display": "standalone",
+  "theme_color": "#009640",
+  "background_color":"#009640",
+  "description": "¡Hola! Somos Jumbito y sus amigos, te invitamos en nuestra primera aventura a darle una vuelta a tus colaciones.",
+  "orientation": "portrait-primary",
+  "start_url": "http://jumbo.cl/",
+  "icons": [
+    {
+      "src": "media/logo-jumbito-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "media/logo-jumbito-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+header.header(class=(headerClass ? headerClass : ''))
+  .header-container
+    .header-come-sano
+      img(src='media/come-sano.png')
+
+    .header-text
+      div ¡HOLA!
+      | SOMOS JUMBITO Y SUS AMIGOS,
+      div
+        | TE INVITAMOS EN NUESTRA PRIMERA AVENTURA A DARLE UNA VUELTA
+        | A TUS COLACIONES.
+
+    button.mobile-nav-btn
+      img(src="media/menu.png")
+    nav.header-nav
+      button.header-nav-close-btn
+        i.fas.fa-times
+
+      ul.header-nav-list.nav-main
+        li.header-nav-li
+          a(href="#jumbito")
+            i.far.fa-smile
+            | Personajes
+        li.header-nav-li
+          a(href="#video")
+            i.fas.fa-play-circle
+            | Video
+        li.header-nav-li
+          a(href="#game")
+            i.fas.fa-gamepad
+            | Juego
+
+      ul.header-nav-list.nav-info
+        li.header-nav-li
+          a(href="#tips")
+            i.fas.fa-check-circle
+            | Tips
+        li.header-nav-li
+          a(href="#recetas")
+            i.fas.fa-utensils
+            | Recetas
+        li.header-nav-li
+          a(href="#calendario")
+            i.fas.fa-calendar-alt
+            | Calendario
+
+
+    ul.header-characters-list
+      li.header-characters-li.tin
+        a.header-character(href="#tin")
+          img(src="media/header-tin.png")
+      li.header-characters-li.rash
+        a.header-character(href="#rash")
+          img(src="media/header-rash.png")
+      li.header-characters-li.jumbito
+        a.header-character(href="#jumbito")
+          img(src="media/header-jumbito.png")
+      li.header-characters-li.zooly
+        a.header-character(href="#zooly")
+          img(src="media/header-zooly.png")
+      li.header-characters-li.rozy
+        a.header-character(href="#rozy")
+          img(src="media/header-rozy.png")
+
+    a.header-logo(href=(headerClass ? "index.html" : ''))
+      img(src='media/logo.png')
+
+  .header-bg
+    picture
+      source(srcset="media/header-bg-360.jpg", media="(max-width: 360px)")
+      source(srcset="media/header-bg-768.jpg", media="(max-width: 768px)")
+      source(srcset="media/header-bg.jpg", media="(min-width: 769px)")
+      img(src="media/header-bg.jpg")
+
+  a.tag-btn.hidden(href="info.html")
+    i.fas.fa-users
+
+.header-nav-bg
